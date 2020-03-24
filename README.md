@@ -1,4 +1,4 @@
-# kogito-quickstart project
+# kogito-decisiontable project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
