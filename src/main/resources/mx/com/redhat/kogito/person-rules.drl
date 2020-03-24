@@ -1,0 +1,14 @@
+package mx.com.redhat.kogito
+
+import mx.com.redhat.kogito.model.Person;
+
+
+rule "Is adult" ruleflow-group "person-table"
+
+when
+    $person: Person(age > 18)
+then
+    modify($person) {
+    	setAdult(true)
+    };
+end
